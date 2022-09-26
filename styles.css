@@ -2,10 +2,26 @@ body {
     background-image: url("floor-tile.png");
     max-width: 800px;
     margin: 24px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.top_nav {
+    background-color:lightpink;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
 }
 
 .headshot {
     float: left;
+    padding: 20px;
+    background-color: whitesmoke;
 }
 
 header > nav {
@@ -13,5 +29,23 @@ header > nav {
 }
 
 h1, p {
-    background-color:white;
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+.side_nav {
+    float: left;
+    max-width: 700px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+main ::after {
+    content: "";
+    clear: both;
+    display: block;
 }
