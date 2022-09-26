@@ -1,0 +1,17 @@
+body {
+    background-image: url("floor-tile.png");
+    max-width: 800px;
+    margin: 24px auto;
+}
+
+.headshot {
+    float: left;
+}
+
+header > nav {
+    float: right;
+}
+
+h1, p {
+    background-color:white;
+}
