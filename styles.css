@@ -6,6 +6,10 @@ body {
     font-style: normal;
 }
 
+header > nav {
+    float: right;
+}
+
 .top_nav {
     background-color:lightpink;
     font-size: 20px;
@@ -18,34 +22,34 @@ a {
     font-weight:bold;
 }
 
+section {
+    float: left;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
 .headshot {
     float: left;
-    padding: 20px;
-    background-color: whitesmoke;
-}
-
-header > nav {
-    float: right;
-}
-
-h1, p {
-    background-color:whitesmoke;
-    padding: 20px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .side_nav {
-    float: left;
     max-width: 700px;
-}
-
-footer {
-    text-align: center;
-    background-color: lightpink;
-    padding: 20px;
+    float: right;
+    display:inline-block
 }
 
 main ::after {
     content: "";
     clear: both;
-    display: block;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: lightpink;
+    padding: 20px;
 }
