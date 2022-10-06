@@ -13,16 +13,50 @@ body {
     margin: 0px auto;
 }
 
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body > .container{
+    margin-top: 40px;
+}
+
 header {
-    background: white;
+    background: whitesmoke;
     padding: 20px 0;
-    border-bottom: 2px solid lightpink;
+    border-bottom: 2px solid black;
 }
 
 h1 {
     display: inline-block;
     width: 30%;
     font-family: sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    margin-bottom: 20px;
+    width: 30%;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 30px;
+    border-bottom: 8px dotted lightseagreen;
+}
+
+ul {
+    margin-left: 20px;
 }
 
 nav {
@@ -39,4 +73,45 @@ nav a {
     color: white;
     padding: 10px 20px;
     margin: 0 10px;
+    border-radius: 6px;
+}
+
+main,
+aside {
+    background: whitesmoke;
+}
+
+main {
+    max-width: 59%;
+    float: left;
+    padding: 20px;
+    margin-right: 45px;
+}
+
+main img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: left;
+    padding: 20px;
+}
+
+aside img {
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: lightpink;
+    color: whitesmoke;
 }
