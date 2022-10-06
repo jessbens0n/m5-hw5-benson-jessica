@@ -1,91 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-    background-image: url("floor-tile.png");
-    max-width: 800px;
-    margin: 24px auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
+    background: url("floor-tile.png");
 }
 
-main {
-    background-color: whitesmoke;
-    margin: 40px 0 20px;
-}
-
-.headshot {
-    float: left;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    padding top: 20px;
-    background-color: whitesmoke;
-}
-
-h1 {
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    background-color: whitesmoke;
-    font-size: large;
-}
-
-header > nav {
-    float: right;
+.container {
+    max-width: 900px;
+    margin: 0px auto;
 }
 
 header {
-    margin: 40px 0 20px;
-    font-size: large;
-    background-color: lightpink;
-    padding: 20px
+    background: white;
+    padding: 20px 0;
+    border-bottom: 2px solid lightpink;
 }
 
-p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+h1 {
+    display: inline-block;
+    width: 30%;
+    font-family: sans-serif;
 }
 
-a {
-    color: white;
+nav {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+nav a {
     text-decoration: none;
     font-weight: bold;
-}
-
-article {
-    float: left;
-    max-width: 600px;
-}
-
-main::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-main aside a {
-    display: block;
-    float: right;
-}
-
-main > aside {
-    float: right;
-}
-
-h2 {
-    font-size: large;
-}
-
-aside {
-    border-style:groove;
-    padding: 10px;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    margin: 40px 0 20px;
-    background-color: lightpink;
-    padding: 20px;
+    font-family: sans-serif;
+    background: lightpink;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
 }
